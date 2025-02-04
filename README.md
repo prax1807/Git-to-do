@@ -3,18 +3,18 @@ All AI particualr projects done while job hunting :)
 I am still workiing on them one by one while realising how to work with Git might also change dataset according to my prefrence too
 
 1. **Linear Regression**:
-   - Implement a simple linear regression model to predict house prices based on their size.
+   - Implement a simple linear regression model to predict house energy consumption based on their size.
    - Using energy consumption dataset .
    - Calculate the best-fit line to energy vs size graph.
 
 2. **Logistic Regression**:
    - Build a logistic regression model to classify emails as spam or not spam.
-   - Use the SpamAssassin Public Corpus dataset.
+   - Use the SpamAssassin Public Corpus dataset.I have used the easy spam and ham set
    - Example: Predict whether an email is spam based on its text features.
 
 3. **K-Nearest Neighbors (KNN)**:
    - Implement a KNN algorithm to classify handwritten digits.
-   - Use the MNIST dataset.
+   - Use the MNIST dataset. I used the Keras Dataset 
    - Example: Classify digits from 0 to 9 based on pixel values.
 
 4. **Decision Trees**:
