@@ -57,4 +57,21 @@ I am still workiing on them one by one while realising how to work with Git migh
     - Clean prompts as per need.
     - Example: Extract python code from a given prompt.
 
+## Streamlit app
+
+The repository includes an interactive ML Lab for comparing classification models on the Iris, Wine, and Breast Cancer datasets. Choose a dataset and model to inspect evaluation metrics, a confusion matrix, and individual predictions.
+
+Run it locally with:
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run app.py
+```
+
+## CI/CD
+
+GitHub Actions runs the model tests on every push and pull request. To deploy, create an app in [Streamlit Community Cloud](https://share.streamlit.io/), select this GitHub repository and deployment branch, and set the entry point to `app.py`. Community Cloud installs `requirements.txt` and redeploys when that branch changes.
+
+To make CI a merge gate, protect the deployment branch in GitHub and require the `CI / test` status check before merging. Community Cloud deploys from the selected branch independently of pull request checks.
+
 
